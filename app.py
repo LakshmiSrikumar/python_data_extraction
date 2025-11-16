@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-
+import os
 from supabase_client import supabase
 app = Flask(__name__)
 
